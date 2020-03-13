@@ -22,6 +22,7 @@ h2 {  font-weight: normal;  }
 
 .header {
   background-image: url(images/background.png);
+  color: white;
   height: 80px;
 }
 
@@ -51,6 +52,9 @@ h2 {  font-weight: normal;  }
 .section{
   text-align:center;
 }
+.section ul li{
+  margin:0 18px;
+}
 .section-bottom {
   display: inline-block;
 }
@@ -61,6 +65,7 @@ h2 {  font-weight: normal;  }
   background-repeat: no-repeat;
   float: left;
   padding: 30px 30px;
+  padding-top: 20px;
   margin: 20px 26px;
   box-sizing: border-box;
   width: 200px;
