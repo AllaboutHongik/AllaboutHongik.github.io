@@ -52,18 +52,16 @@ h2 {  font-weight: normal;  }
 .section{
   text-align:center;
 }
-.section ul li{
-  margin:0 18px;
-}
-.section-bottom {
-  display: inline-block;
+
+.section-bottom{
+  margin:0 5%;
 }
 
 .building {
   background-image: url(images/lace.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  float: left;
+  display:inline-block;
   padding: 30px 30px;
   padding-top: 20px;
   margin: 20px 26px;
