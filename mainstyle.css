@@ -14,9 +14,11 @@ h2 {  font-weight: normal;  }
   clear: both;
 }
 
-.wrapper {
+body{
   background-image:url(images/background.png);
+  background-size: cover;
 }
+
 
 /* header */
 
@@ -29,28 +31,22 @@ h2 {  font-weight: normal;  }
 
 /* section */
 
-.section-top {
-  text-align: center;
-}
 
-.map {
-  border: 2px solid #d2ac48;
-  width: 70%;
-  margin: 30px 0;
-}
 .section{
   text-align:center;
 }
 
 .section-bottom {
-  display: inline-block;
+  margin-top:10px;
+  margin-left: 5%;
+  margin-right:5%;
 }
 
 .mainbutton {
+  display: inline-block;
   background-image: url(images/lace.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  float: left;
   padding: 30px 30px;
   padding-bottom: 100px;
   margin: 30px 50px;
@@ -74,8 +70,12 @@ h2 {  font-weight: normal;  }
 /* footer */
 
 .footer {
+  position: fixed;
+  bottom:0;
+  left:0;
   background-color: #c9c9c9;
-  height: 50px;
+  width:100%;
+  height: 60px;
   text-align: center;
 }
 
