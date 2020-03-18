@@ -1,0 +1,100 @@
+/* CSS Reset */
+body, ul, h1, h4, p { margin: 0;  padding: 0; }
+li {  list-style-type: none;  }
+a { text-decoration: none; color: #011c3f; }
+h1, h4 {  font-weight: normal;  }
+
+.wrapper {
+  background-color: #f6f6f6;
+}
+
+/* header */
+
+.header {
+  background-image: url(images/background.png);
+  height: 80px;
+}
+
+.logo {
+  width: 80px;
+  margin: 20px;
+}
+
+/* section */
+
+.section {
+  text-align: center;
+  padding: 10px;
+}
+
+.floor {
+  /* background-color: orange; */
+  margin: 20px auto;
+  padding: 0 20px;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #011c3f;
+}
+
+.floor li {
+  display: inline-block;
+  line-height: 2;
+}
+
+.floor li:after {
+  content:' |';
+  margin: 0 15px;
+}
+
+.floor li:last-child:after {
+  content: ' ';
+}
+
+h1 {
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #011c3f;
+}
+
+.map {
+  border: 2px solid #d2ac48;
+  width: 90%;
+  margin: 30px 0;
+}
+
+.desc {
+  background-color: #ecebeb;
+  width: 90%;
+  text-align: left;
+  margin: 3px auto;
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #011c3f;
+}
+
+.desc:last-child {
+  margin-bottom: 30px;
+}
+
+.desc h4 {
+  padding: 5px 10px 0 10px;
+}
+
+.desc p {
+  margin: 10px 0 5px 0;
+  padding: 0 10px;
+  font-size: 14px;
+}
+
+/* footer */
+
+.footer {
+  background-color: #c9c9c9;
+  height: 60px;
+  text-align: center;
+}
+
+.footer p {
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #999;
+  padding: 10px;
+}
