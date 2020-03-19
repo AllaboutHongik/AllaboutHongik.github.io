@@ -25,9 +25,43 @@ h2 {  font-weight: normal;  }
   height: 80px;
 }
 
+.backcontainer {
+  height: 50px;
+  margin: 10px;
+  float: left;
+}
+
+.back {
+  background-image: url(images/arrow.png);
+  background-size: cover;
+  repeat: no-repeat;
+  width: 10px;
+  height: 20px;
+  margin: 20px;
+  float: left;
+}
+
 .logo {
   width: 80px;
-  margin: 20px;
+  margin: 20px 0;
+  float: left;
+}
+
+.pagename {
+  font-family: 'Noto Serif KR', serif;
+  font-weight: 100;
+  font-size: 25px;
+  letter-spacing: -2px;
+  color: #d2ac48;
+  display: inline-block;
+  padding: 20px 0;
+  margin: 0 20px;
+}
+
+.pagename:before {
+  content: '|';
+  color: #95741b;
+  margin-right: 20px;
 }
 
 /* section */
