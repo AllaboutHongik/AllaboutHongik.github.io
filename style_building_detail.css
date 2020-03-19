@@ -2,7 +2,13 @@
 body, ul, h1, h4, p { margin: 0;  padding: 0; }
 li {  list-style-type: none;  }
 a { text-decoration: none; color: #011c3f; }
-h1, h4 {  font-weight: normal;  }
+h4 {  font-weight: normal;  }
+
+.clearfix {
+  content: ' ';
+  display: block;
+  clear: both;
+}
 
 .wrapper {
   background-color: #f6f6f6;
@@ -15,9 +21,50 @@ h1, h4 {  font-weight: normal;  }
   height: 80px;
 }
 
+.backcontainer {
+  height: 50px;
+  margin: 10px;
+  float: left;
+}
+
+.back {
+  background-image: url(images/arrow.png);
+  background-size: cover;
+  repeat: no-repeat;
+  width: 10px;
+  height: 20px;
+  margin: 20px;
+  float: left;
+}
+
 .logo {
   width: 80px;
-  margin: 20px;
+  margin: 20px 0;
+  float: left;
+}
+
+.pagename {
+  font-family: 'Noto Serif KR', serif;
+  font-weight: 100;
+  font-size: 25px;
+  letter-spacing: -2px;
+  color: #d2ac48;
+  display: inline-block;
+  padding: 20px 0;
+  margin: 0 20px;
+}
+
+.pagename:before {
+  content: '|';
+  color: #95741b;
+  margin-right: 20px;
+}
+
+.pagename:after {
+  content: '조형관';
+  font-size: 65%;
+  color: #95741b;
+  margin-left: 10px;
 }
 
 /* section */
@@ -50,8 +97,10 @@ h1, h4 {  font-weight: normal;  }
 }
 
 h1 {
-  font-family: 'Noto Sans KR', sans-serif;
-  color: #011c3f;
+  font-family: 'Song Myung', serif;
+  font-weight: 100;
+  font-size: 50px;
+  color: #d2ac48;
 }
 
 .map {
@@ -68,6 +117,7 @@ h1 {
   padding: 10px;
   box-sizing: border-box;
   font-family: 'Noto Sans KR', sans-serif;
+  letter-spacing: -0.3px;
   color: #011c3f;
 }
 
