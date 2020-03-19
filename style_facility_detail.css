@@ -126,19 +126,27 @@ h1 {
   margin: 10px 0 5px 0;
   padding: 0 10px;
   font-size: 14px;
-
 }
 
 .desc a{
   font-size: medium;
 }
 
-a:after{
+.reflink:after{
   content: '  ';
   margin-right: 10px;
   margin-left:10px;
 }
 
+.loc-button{
+  background-color: #d2ac48;
+  border:2px solid white;
+  width:115px;
+  box-shadow: black;
+  text-align: center;
+  margin-top:15px;
+  margin-left:10px;
+}
 
 /* footer */
 
