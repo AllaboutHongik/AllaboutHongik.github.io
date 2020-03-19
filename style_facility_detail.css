@@ -1,0 +1,158 @@
+/* CSS Reset */
+body, ul, h1, h4, p { margin: 0;  padding: 0; }
+li {  list-style-type: none;  }
+a { text-decoration: none; color: #011c3f; }
+h4 {  font-weight: normal;  }
+
+.clearfix {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+
+body {
+  background-color: #f6f6f6;
+}
+
+/* header */
+
+.header {
+  background-image: url(images/background.png);
+  height: 80px;
+}
+
+.backcontainer {
+  height: 50px;
+  margin: 10px;
+  float: left;
+}
+
+.back {
+  background-image: url(images/arrow.png);
+  background-size: cover;
+  repeat: no-repeat;
+  width: 10px;
+  height: 20px;
+  margin: 20px;
+  float: left;
+}
+
+.logo {
+  width: 80px;
+  margin: 20px 0;
+  float: left;
+}
+
+.pagename {
+  font-family: 'Noto Serif KR', serif;
+  font-weight: 100;
+  font-size: 25px;
+  letter-spacing: -2px;
+  color: #d2ac48;
+  display: inline-block;
+  padding: 20px 0;
+  margin: 0 20px;
+}
+
+.pagename:before {
+  content: '|';
+  color: #95741b;
+  margin-right: 20px;
+}
+
+
+/* section */
+
+.section {
+  text-align: center;
+  padding: 10px;
+}
+
+
+
+h1 {
+  font-family: 'Song Myung', serif;
+  font-weight: 100;
+  font-size: 50px;
+  color: #d2ac48;
+}
+
+.map {
+  border: 2px solid #d2ac48;
+  width: 90%;
+  margin: 30px 0;
+}
+.main{
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count:2;
+  -webkit-column-gap: 1px;
+  -moz-column-gap: 1px;
+  column-gap:1px;
+  margin:20px auto;
+}
+
+#break{
+  break-after:column;
+}
+
+.desc {
+  background-color: #ecebeb;
+  margin:20px auto;
+  width: 90%;
+  text-align: left;
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif;
+  letter-spacing: -0.3px;
+  color: #011c3f;
+}
+
+.desc:last-child {
+  margin-bottom: 30px;
+}
+
+.desc h4 {
+  padding: 5px 10px 0 10px;
+  font-size:larger;
+}
+
+.flogo{
+  width:50px;
+  margin-left:5px;
+
+}
+.desc p {
+  margin: 10px 0 5px 0;
+  padding: 0 10px;
+  font-size: 14px;
+
+}
+
+.desc a{
+  font-size: medium;
+}
+
+a:after{
+  content: '  ';
+  margin-right: 10px;
+  margin-left:10px;
+}
+
+
+/* footer */
+
+.footer {
+  position: fixed;
+  bottom:0;
+  background-color: #c9c9c9;
+  height: 60px;
+  width:100%;
+  text-align: center;
+}
+
+.footer p {
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #999;
+  padding: 10px;
+}

@@ -7,7 +7,9 @@ h2 {  font-weight: normal;  }
 @media(max-width:800px){
 
 }
-
+body{
+  background-color: #f6f6f6;
+}
 .clearfix {
   content: ' ';
   display: block;
@@ -15,7 +17,7 @@ h2 {  font-weight: normal;  }
 }
 
 .wrapper {
-  background-color: #f6f6f6;
+
 }
 
 /* header */
