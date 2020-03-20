@@ -100,7 +100,7 @@ h1 {
   background-color: #ecebeb;
   margin:20px auto;
   width: 90%;
-  text-align: left;
+  
   padding: 10px;
   box-sizing: border-box;
   font-family: 'Noto Sans KR', sans-serif;
@@ -118,18 +118,25 @@ h1 {
 }
 
 .flogo{
-  width:50px;
-  margin-left:5px;
-
+  width:80px;
+  margin-top:20px;
 }
+
+.desc h1{
+  margin:20px, auto;
+  font-size:small
+}
+
 .desc p {
   margin: 10px 0 5px 0;
   padding: 0 10px;
   font-size: 14px;
+  text-align: left;
 }
 
 .desc a{
   font-size: medium;
+  text-align: left;
 }
 
 .reflink:after{
