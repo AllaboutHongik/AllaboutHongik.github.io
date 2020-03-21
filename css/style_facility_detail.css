@@ -84,6 +84,8 @@ body {
   -webkit-column-gap: 1px;
   -moz-column-gap: 1px;
   column-gap:1px;
+  -webkit-margin:20px auto;
+  -moz-margin:20px auto;
   margin:20px auto;
 }
 
@@ -118,10 +120,9 @@ body {
 }
 
 .desc h4 {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Noto Serif KR', serif;
   font-size:x-large;
   font-weight: bold;
-  
 }
 
 .desc h4::before{
