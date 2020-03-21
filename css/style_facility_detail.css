@@ -94,7 +94,6 @@ body {
   background-color: #ecebeb;
   margin:20px auto;
   width: 90%;
-  
   padding: 10px;
   box-sizing: border-box;
   font-family: 'Noto Sans KR', sans-serif;
@@ -128,15 +127,13 @@ fieldset{
 .desc h4::before{
   content:' ● ';
   font-size:6pt;
-  position:relative;
-  bottom:4px;
+ 
 }
 
 .desc h4::after{
   content:' ● ';
   font-size: 6pt;
-  position:relative;
-  bottom:4px;
+ 
 }
 
 .flogo{
