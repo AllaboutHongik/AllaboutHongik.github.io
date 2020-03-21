@@ -17,7 +17,7 @@ body {
 /* header */
 
 .header {
-  background-image: url(images/background.png);
+  background-image: url(../images/background.png);
   height: 80px;
 }
 
@@ -28,7 +28,7 @@ body {
 }
 
 .back {
-  background-image: url(images/arrow.png);
+  background-image: url(../images/arrow.png);
   background-size: cover;
   repeat: no-repeat;
   width: 10px;
