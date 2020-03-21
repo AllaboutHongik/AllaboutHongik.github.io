@@ -31,10 +31,8 @@ body{
 
 /* section */
 
-
 .section{
-  position: relative;
-  top:20%;
+  margin: 10%;
   text-align:center;
 }
 
