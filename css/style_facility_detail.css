@@ -99,10 +99,13 @@ body {
   letter-spacing: -0.3px;
   color: #011c3f;
 }
+fieldset{
+  margin:auto 10px;
+}
 .desc ul li{
   font-family: 'Noto Sans KR', sans-serif;
   letter-spacing: -0.3px;
-  margin: 10px 0 5px 0;
+  margin: 10px 3px;
   padding: 0 10px;
   font-size: 14px;
   line-height: 14px;
@@ -114,8 +117,24 @@ body {
 }
 
 .desc h4 {
+  font-family: 'Noto Sans KR', sans-serif;
   font-size:x-large;
   font-weight: bold;
+  
+}
+
+.desc h4::before{
+  content:' ● ';
+  font-size:6pt;
+  position:relative;
+  bottom:4px;
+}
+
+.desc h4::after{
+  content:' ● ';
+  font-size: 6pt;
+  position:relative;
+  bottom:4px;
 }
 
 .flogo{
