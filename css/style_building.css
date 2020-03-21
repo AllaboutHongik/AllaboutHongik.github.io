@@ -1,0 +1,119 @@
+/* CSS Reset */
+body, ul, h2, p { margin: 0;  padding: 0; }
+li {  list-style-type: none;  }
+a { text-decoration: none;  }
+h2 {  font-weight: normal;  }
+
+@media(max-width:800px){
+
+}
+
+.clearfix {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+
+.wrapper {
+  background-color: #f6f6f6;
+}
+
+/* header */
+
+.header {
+  background-image: url(../images/background.png);
+  height: 80px;
+}
+
+.backcontainer {
+  height: 50px;
+  margin: 10px;
+  float: left;
+}
+
+.back {
+  background-image: url(../images/arrow.png);
+  background-size: cover;
+  repeat: no-repeat;
+  width: 10px;
+  height: 20px;
+  margin: 20px;
+  float: left;
+}
+
+.logo {
+  width: 80px;
+  margin: 20px 0;
+  float: left;
+}
+
+.pagename {
+  font-family: 'Noto Serif KR', serif;
+  font-weight: 100;
+  font-size: 25px;
+  letter-spacing: -2px;
+  color: #d2ac48;
+  display: inline-block;
+  padding: 20px 0;
+  margin: 0 20px;
+}
+
+.pagename:before {
+  content: '|';
+  color: #95741b;
+  margin-right: 20px;
+}
+
+/* section */
+
+.section {
+  text-align: center;
+}
+
+.map {
+  border: 2px solid #d2ac48;
+  width: 75%;
+  margin: 30px 0;
+}
+
+
+.section-bottom {
+  margin: 0 5%;
+}
+
+.building {
+  background-image: url(../images/lace.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  padding: 20px 30px 30px 30px;
+  margin: 20px 26px;
+  box-sizing: border-box;
+  width: 200px;
+}
+
+.building h2 {
+  font-family: 'Song Myung', serif;
+  font-size: 30px;
+  color: #b59233;
+}
+
+.building p {
+  font-family: 'Song Myung', serif;
+  font-size: 18px;
+  color: #a18028;
+}
+
+/* footer */
+
+.footer {
+  background-color: #c9c9c9;
+  height: 60px;
+  text-align: center;
+}
+
+.footer p {
+  font-family: 'Song Myung', serif;
+  color: #999;
+  padding: 10px;
+}

@@ -1,0 +1,88 @@
+/* CSS Reset */
+body, ul, h2, p { margin: 0;  padding: 0; }
+li {  list-style-type: none;  }
+a { text-decoration: none;  }
+h2 {  font-weight: normal;  }
+
+@media(max-width:800px){
+
+}
+
+.clearfix {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+
+body{
+  background-image:url(../images/background.png);
+  background-size: cover;
+}
+
+
+/* header */
+
+
+.logo {
+  width: 350px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+/* section */
+
+
+.section{
+  position: relative;
+  top:20%;
+  text-align:center;
+}
+
+.section-bottom {
+  margin-top:10px;
+  margin-left: 5%;
+  margin-right:5%;
+}
+
+.mainbutton {
+  display: inline-block;
+  background-image: url(../images/lace.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 30px 30px;
+  padding-bottom: 100px;
+  margin: 30px 50px;
+  box-sizing: border-box;
+  width: 200px;
+}
+
+
+.mainbutton h2 {
+  font-family: 'Song Myung', serif;
+  font-size: 36px;
+  color: #b59233;
+}
+
+.mainbutton p {
+  font-family: 'Song Myung', serif;
+  font-size: 18px;
+  color: #a18028;
+}
+
+/* footer */
+
+.footer {
+  position: fixed;
+  bottom:0;
+  left:0;
+  background-color: #c9c9c9;
+  width:100%;
+  height: 60px;
+  text-align: center;
+}
+
+.footer p {
+  font-family: 'Song Myung', serif;
+  color: #999;
+  padding: 10px;
+}
