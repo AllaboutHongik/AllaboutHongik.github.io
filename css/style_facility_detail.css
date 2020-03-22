@@ -21,8 +21,7 @@ body {
   height: 80px;
 }
 .wrapper{
-  width:100%;
-  margin:0 auto;
+  margin:0, auto;
 }
 .backcontainer {
   height: 50px;
