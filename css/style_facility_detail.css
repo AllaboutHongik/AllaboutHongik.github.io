@@ -2,7 +2,7 @@
 body, ul, h1, h4, p { margin: 0;  padding: 0; }
 li {  list-style-type: none;  }
 a { text-decoration: none; color: #011c3f; }
-
+h4 {  font-weight: normal;  }
 
 .clearfix {
   content: ' ';
@@ -101,8 +101,9 @@ body {
   letter-spacing: -0.3px;
   color: #011c3f;
 }
-
-
+fieldset{
+  
+}
 .desc ul li{
   font-family: 'Noto Sans KR', sans-serif;
   letter-spacing: -0.3px;
