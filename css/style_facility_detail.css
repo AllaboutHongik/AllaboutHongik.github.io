@@ -125,20 +125,15 @@ fieldset{
 }
 
 .desc h4::before{
-  content:'●';
+  content:' ● ';
   font-size:6pt;
-  position:relative;
-  bottom:4px;
-  right:4px;
+ 
 }
 
 .desc h4::after{
-  content:'●';
+  content:' ● ';
   font-size: 6pt;
-  position:relative;
-  bottom:4px;
-  left:4px;
-  
+ 
 }
 
 .flogo{
