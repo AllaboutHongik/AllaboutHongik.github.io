@@ -102,7 +102,7 @@ body {
   color: #011c3f;
 }
 fieldset{
-  
+  margin:auto 10px;
 }
 .desc ul li{
   font-family: 'Noto Sans KR', sans-serif;
