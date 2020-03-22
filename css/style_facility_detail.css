@@ -20,9 +20,7 @@ body {
   background-image: url(../images/background.png);
   height: 80px;
 }
-.wrapper{
-  margin:0, auto;
-}
+
 .backcontainer {
   height: 50px;
   margin: 10px;
