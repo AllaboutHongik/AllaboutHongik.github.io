@@ -90,7 +90,7 @@ body {
 
 .desc {
   background-color: #ecebeb;
-  margin:20px auto;
+  margin:50px auto;
   width: 90%;
   
   padding: 10px;
@@ -115,6 +115,7 @@ body {
   top:5px;
   right:1px;
 }
+
 .desc ul li{
   font-family: 'Noto Sans KR', sans-serif;
   letter-spacing: -0.3px;
@@ -125,6 +126,7 @@ body {
   text-align: left;
   color: #011c3f;
 }
+
 .desc:last-child {
   margin-bottom: 30px;
 }
@@ -147,10 +149,24 @@ body {
   display:inline-block
 }
 
-.button{
+.loc-button{
   background-color: #011c3f;
   border:1px solid white;
   color:white;
+  box-shadow: black;
+  padding-left:5px;
+  padding-right:6px;
+  text-align: center;
+  margin-top:15px;
+  margin-left:10px;
+  font-size:15px;
+  display:inline-block;
+}
+
+.rel-button{
+  background-color: #ecebeb;
+  border:1.5px solid #011c3f;
+  color:#011c3f;
   box-shadow: black;
   padding-left:5px;
   padding-right:6px;
