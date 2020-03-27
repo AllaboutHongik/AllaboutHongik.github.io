@@ -165,7 +165,7 @@ body {
 
 .rel-button{
   background-color: #ecebeb;
-  border:1.5px solid #011c3f;
+  border:1px solid #011c3f;
   color:#011c3f;
   box-shadow: black;
   padding-left:5px;
@@ -189,6 +189,9 @@ body {
   text-align: left;
 }
 
+fieldset{
+  border: 1px solid #011c3f;
+}
 
 
 
