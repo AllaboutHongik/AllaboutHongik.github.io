@@ -99,6 +99,22 @@ body {
   letter-spacing: -0.3px;
   color: #011c3f;
 }
+
+.desc h4:after{
+  content: "·";
+  font-size: 30px;
+  position: relative;
+  top:2px;
+  left:1px;
+}
+
+.desc h4:before{
+  content: "·";
+  font-size: 30px;
+  position: relative;
+  top:5px;
+  right:1px;
+}
 .desc ul li{
   font-family: 'Noto Sans KR', sans-serif;
   letter-spacing: -0.3px;
