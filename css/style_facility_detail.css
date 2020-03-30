@@ -177,6 +177,10 @@ body {
   display:inline-block
 }
 
+.loc-linetwo{
+  margin-top: 2px;
+}
+
 .loc-button{
   background-color: #011c3f;
   border:1px solid white;
