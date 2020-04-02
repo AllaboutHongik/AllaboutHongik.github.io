@@ -70,10 +70,14 @@ body {
 
 .desc-title{
   font-family: 'Noto Sans KR', sans-serif;
-  color: #011c3f;
+  color: #95741b;
   font-size:20pt;
   margin-bottom: 0px;
   margin-top:25px;
+  height:50px;
+  border-top:2px solid #95741b;
+  border-bottom:2px solid #95741b;
+  padding-top: 5px;
   
 }
 
