@@ -68,6 +68,14 @@ body {
   padding: 10px;
 }
 
+.desc-title{
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #011c3f;
+  font-size:20pt;
+  margin-bottom: 0px;
+  margin-top:25px;
+  
+}
 
 .map {
   border: 2px solid #d2ac48;
@@ -81,7 +89,7 @@ body {
   -webkit-column-gap: 1px;
   -moz-column-gap: 1px;
   column-gap:1px;
-  margin:20px auto;
+  margin:10px auto;
 }
 
 #break{
@@ -169,6 +177,12 @@ body {
   margin-top:20px;
 }
 
+.desc h6{
+  margin-top:2px;
+  margin-bottom: 3px;
+  font-size:14px;
+  font-weight: 100;
+}
 
 .desc h5{
   margin:3px auto;
