@@ -94,6 +94,7 @@ body {
   -moz-column-gap: 1px;
   column-gap:1px;
   margin:10px auto;
+  overflow:hidden;
 }
 
 #break{
@@ -255,6 +256,11 @@ fieldset{
   margin:auto 12px;
 }
 
+.seat-status{
+  margin:50px 15px;
+  border-right:5px solid black;
+  border-bottom:1px solid black;
+}
 
 
 
