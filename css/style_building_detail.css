@@ -74,7 +74,7 @@ h4 {  font-weight: normal;  }
   padding: 10px;
 }
 
-.floor {
+.tabs-nav {
   /* background-color: orange; */
   margin: 20px auto;
   padding: 0 20px;
@@ -82,17 +82,17 @@ h4 {  font-weight: normal;  }
   color: #011c3f;
 }
 
-.floor li {
+.tabs-nav li {
   display: inline-block;
   line-height: 2;
 }
 
-.floor li:after {
+.tabs-nav li:after {
   content:' |';
   margin: 0 15px;
 }
 
-.floor li:last-child:after {
+.tabs-nav li:last-child:after {
   content: ' ';
 }
 
