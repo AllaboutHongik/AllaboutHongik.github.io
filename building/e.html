@@ -15,7 +15,7 @@
 
           <!-- header -->
           <div class="header clearfix">
-            <a href="building.html"><div class="backcontainer">
+            <a href="goBack();"><div class="backcontainer">
               <div class="back"></div>
             </div></a>
             <a href="../index.html"><img class="logo" src="../images/logo.png"></a>
@@ -180,6 +180,13 @@
 
               tabAnchor.eq(0).trigger('click');
             });
+        </script>
+
+        <script type="text/javascript">
+          function goBack(){
+            window.history.back();
+          }
+
         </script>
 
 
