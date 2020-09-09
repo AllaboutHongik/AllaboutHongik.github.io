@@ -7,6 +7,7 @@
         <link href="https://fonts.googleapis.com/css?family=Song+Myung&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR&display=swap" rel="stylesheet">
+        <script defer src="../js/building.js"></script>
     </head>
     <body>
 
@@ -140,31 +141,5 @@
           <!-- footer -->
           <div class="footer"><p>ver. 200318</p></div>
         </div>
-
-        <script
-          src="https://code.jquery.com/jquery-3.4.1.min.js"
-          integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-          crossorigin="anonymous">
-        </script>
-
-        <script>
-            $(document).ready(function() {
-              var tabAnchor = $('.tabs-nav li');
-              var tabPanel = $('.tabs-panel');
-
-              tabAnchor.click(function(e) {
-                  e.preventDefault();
-
-                  tabPanel.hide();
-
-                  var $idx = $(this).index();
-                  tabPanel.eq($idx).show();
-              });
-
-              tabAnchor.eq(0).trigger('click');
-            });
-        </script>
-
-
     </body>
 </html>
