@@ -30,10 +30,10 @@
 ## 🎈미리보기
 ### main 페이지
 <img width="1433" alt="main" src="https://user-images.githubusercontent.com/62063829/102006220-b6ece580-3d62-11eb-997a-d0f2972ae7c0.png">
-</br>
+
 ### 시설별 소개 페이지
 <img width="1433" alt="facility" src="https://user-images.githubusercontent.com/62063829/102006265-0e8b5100-3d63-11eb-800f-2c2a1fd9f6a2.png">
-</br>
+
 ### 건물별 소개 페이지
 <img width="1433" alt="building" src="https://user-images.githubusercontent.com/62063829/102006277-3b3f6880-3d63-11eb-9409-fd3e87a65f70.png">
 </br></br>
