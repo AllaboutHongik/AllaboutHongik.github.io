@@ -26,4 +26,9 @@
 ### 3. 검색 기능 (구현예정)
 + 장소와 태그를 기준으로 학교 시설 검색 가능
 
+
+## 🎈미리보기
+### main 화면
+<img width="1433" alt="main" src="https://user-images.githubusercontent.com/62063829/102006220-b6ece580-3d62-11eb-997a-d0f2972ae7c0.png">
+
 </br></br>
